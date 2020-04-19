@@ -1,0 +1,48 @@
+body {
+  font-family: "VT323", monospace;
+  text-align: center;
+  background: rgb(41, 47, 162);
+  background: radial-gradient(
+    circle,
+    rgba(41, 47, 162, 1) 4%,
+    rgba(72, 18, 43, 1) 47%,
+    rgba(0, 0, 0, 1) 81%
+  );
+}
+
+#canvas {
+  background: url(/images/background.png);
+  -webkit-animation: animatedBackground 20s linear infinite;
+  background-repeat: repeat-y;
+}
+
+@-webkit-keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1000px;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+  margin: 0;
+}
+
+p {
+  color: white;
+  position: absolute;
+  left: 1250px;
+  bottom: 10px;
+  margin: 0;
+}
+h2 {
+  margin-top: 0px;
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 55px;
+  font-size: 60px;
+}
