@@ -11,7 +11,7 @@ body {
 }
 
 #canvas {
-  background: url(/images/background.png);
+  background: url(images/background.png);
   -webkit-animation: animatedBackground 20s linear infinite;
   background-repeat: repeat-y;
 }
