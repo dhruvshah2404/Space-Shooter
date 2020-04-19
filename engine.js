@@ -28,7 +28,7 @@ function init() {
   loadImages();
 
   player = {
-    x: 290,
+    x: 500,
     y: H - 85,
     w: 75,
     h: 75,
@@ -202,7 +202,8 @@ function update() {
   }
 
   enemies.forEach(function (enemy) {
-    if (isColliding(player, enemy)) {
+		if (isColliding(player, enemy)) {
+			score.innerHTML = 0;
       alert("Game over. Press OK to restart!");
       gameover = true;
     }
