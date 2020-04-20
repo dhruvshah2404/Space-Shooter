@@ -32,7 +32,7 @@ function init() {
     y: H - 85,
     w: 75,
     h: 75,
-    speed: 20,
+    speed: 15,
     bullets: [],
 
     update: function () {
